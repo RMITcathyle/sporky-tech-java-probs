@@ -1,6 +1,6 @@
-<<<<<<< HEAD
+
 // variables and datatypes - math problem
-=======
+
 
 public class problem1 {
     public static void main(String[] args) {
@@ -15,18 +15,28 @@ public class problem1 {
         double walkingTime;
 
         double distance = 8.9 + 13.05; // distance b + e
->>>>>>> 6c3c05d3192627775e2dda800d104c3dd422e1d1
 
         //distance = speed*time;
+        //therefore, time = speed/distance;
         carTime = carSpeed/distance;
         camelTime = camelSpeed/distance;
         scooterTime = scooterSpeed/distance;
         walkingTime = walkingSpeed/distance;
 
-        System.out.printf("Car: %.2f\n", carTime);
-        System.out.printf("Camel: %.2f\n", camelTime);
-        System.out.printf("Scooter: %.2f\n", scooterTime);
-        System.out.printf("Walking: %.2f\n", walkingTime);
+
+        System.out.println("Sporky travelled for: " + distance + "km");
+        
+        System.out.printf("Car: %.2f", carTime );
+        System.out.println(" hours");
+
+        System.out.printf("Camel: %.2f", camelTime);
+        System.out.println(" hours");
+
+        System.out.printf("Scooter: %.2f", scooterTime);
+        System.out.println(" hours");
+
+        System.out.printf("Walking: %.2f", walkingTime);
+        System.out.println(" hours");
 
     }
 }
