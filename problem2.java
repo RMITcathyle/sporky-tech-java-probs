@@ -3,19 +3,11 @@ import java.util.Scanner;
 public class problem2 {
     public static void main(String[] args) {
         try (Scanner scnr = new Scanner(System.in)) {
-            Scanner inSS = null;
 
-            String travelInfo;
-            int age;
-            double distance;
+            int age = 87;
+            double distance = 21.95;
+            String transport = "camel";
             double cost = 0.0;
-            String transport;
-
-            travelInfo = "87 "
-
-            inSS = 
-
-
 
             if (distance<21) {
                 cost = distance * 3.4;
@@ -26,7 +18,6 @@ public class problem2 {
             else {
                 cost = distance * 6.9;
             }
-
 
             if (age<6) {
                 cost = cost + 0.0;
@@ -53,7 +44,8 @@ public class problem2 {
             if (transport == "walking") {
             }
 
-            System.out.print(cost);
+            System.out.printf("Cost: %.2f",cost);
+        
         }
     
 }
