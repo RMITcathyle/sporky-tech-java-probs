@@ -15,8 +15,7 @@ public class problem1 {
 
         int distance = 20;
 
-        //distance = speed*time;
-        //therefore, time = speed/distance;
+        // TIME = SPEED/DISTANCE;
         carTime = carSpeed/distance;
         camelTime = camelSpeed/distance;
         scooterTime = scooterSpeed/distance;

@@ -9,6 +9,7 @@ public class problem2 {
             String transport = "camel";
             double cost = 0.0;
 
+            // DISTANCE
             if (distance<21) {
                 cost = distance * 3.0;
             }
@@ -19,6 +20,7 @@ public class problem2 {
                 cost = distance * 6.0;
             }
 
+            // AGE
             if (age<6) {
                 cost = cost + 0.0;
             }
@@ -32,6 +34,7 @@ public class problem2 {
                 cost = cost + 20.0;
             }
 
+            // TRANSPORT
             if (transport == "car") {
                 cost = cost + 2.5;
             }
