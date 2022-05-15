@@ -1,7 +1,6 @@
 
 // variables and datatypes - math problem
 
-
 public class problem1 {
     public static void main(String[] args) {
         int carSpeed = 60;
@@ -14,7 +13,7 @@ public class problem1 {
         int scooterTime;
         int walkingTime;
 
-        int distance = 20; // distance b + e
+        int distance = 20;
 
         //distance = speed*time;
         //therefore, time = speed/distance;

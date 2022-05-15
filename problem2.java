@@ -50,4 +50,3 @@ public class problem2 {
     
 }
 }
-// tour guide costs
