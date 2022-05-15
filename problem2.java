@@ -5,18 +5,18 @@ public class problem2 {
         try (Scanner scnr = new Scanner(System.in)) {
 
             int age = 87;
-            double distance = 21.95;
+            int distance = 20;
             String transport = "camel";
             double cost = 0.0;
 
             if (distance<21) {
-                cost = distance * 3.4;
+                cost = distance * 3.0;
             }
             else if (distance<30) {
-                cost = distance * 4.3;
+                cost = distance * 4.0;
             }
             else {
-                cost = distance * 6.9;
+                cost = distance * 6.0;
             }
 
             if (age<6) {
@@ -33,10 +33,10 @@ public class problem2 {
             }
 
             if (transport == "car") {
-                cost = cost + 2.4;
+                cost = cost + 2.5;
             }
             if (transport == "camel") {
-                cost = cost + 5.6;
+                cost = cost + 5.5;
             }
             if (transport == "scooter") {
                 cost = cost + 3.5;
@@ -44,7 +44,7 @@ public class problem2 {
             if (transport == "walking") {
             }
 
-            System.out.printf("Cost: %.2f",cost);
+            System.out.printf("Cost: $%.2f", cost);
         
         }
     

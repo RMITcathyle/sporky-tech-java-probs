@@ -4,17 +4,17 @@
 
 public class problem1 {
     public static void main(String[] args) {
-        double carSpeed = 30.0;
-        double camelSpeed = 65.0;
-        double scooterSpeed = 20.0;
-        double walkingSpeed = 5.0;
+        int carSpeed = 60;
+        int camelSpeed = 80;
+        int scooterSpeed = 40;
+        int walkingSpeed = 20;
 
-        double carTime;
-        double camelTime;
-        double scooterTime;
-        double walkingTime;
+        int carTime;
+        int camelTime;
+        int scooterTime;
+        int walkingTime;
 
-        double distance = 8.9 + 13.05; // distance b + e
+        int distance = 20; // distance b + e
 
         //distance = speed*time;
         //therefore, time = speed/distance;
@@ -26,16 +26,16 @@ public class problem1 {
 
         System.out.println("Sporky travelled for: " + distance + "km");
         
-        System.out.printf("Car: %.2f", carTime );
+        System.out.print("Car: " + carTime );
         System.out.println(" hours");
 
-        System.out.printf("Camel: %.2f", camelTime);
+        System.out.print("Camel: " + camelTime);
         System.out.println(" hours");
 
-        System.out.printf("Scooter: %.2f", scooterTime);
+        System.out.print("Scooter: " + scooterTime);
         System.out.println(" hours");
 
-        System.out.printf("Walking: %.2f", walkingTime);
+        System.out.print("Walking: " + walkingTime);
         System.out.println(" hours");
 
     }
