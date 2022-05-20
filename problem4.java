@@ -6,6 +6,8 @@ public class problem4 {
         Scanner inSS = null;
         String[] material = new String[4];
         String MATERIAL;    //input string
+        String[] colour = new String[3];
+        String COLOUR;      //input string
         int i;
 
         MATERIAL = "COTTON CASHMERE ALPACA SATIN";
@@ -16,6 +18,17 @@ public class problem4 {
             material[i] = inSS.next();
             System.out.println(material[i]);
         }
+
+        COLOUR = "RED HOTPINK BURGUNDY";
+
+        inSS = new Scanner(COLOUR);
+
+        for(i=0; i<3; ++i) {
+            colour[i] = inSS.next();
+            System.out.println(colour[i]);
+        }
+
+        
         
        inSS.close();
     }
