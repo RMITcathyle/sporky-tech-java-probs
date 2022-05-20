@@ -24,16 +24,16 @@ public class problem1 {
         System.out.println("Sporky travelled for: " + distance + "km");
         
         System.out.print("Car: " + carTime );
-        System.out.println(" hours");
+        System.out.println(" hour/s");
 
         System.out.print("Camel: " + camelTime);
-        System.out.println(" hours");
+        System.out.println(" hour/s");
 
         System.out.print("Scooter: " + scooterTime);
-        System.out.println(" hours");
+        System.out.println(" hour/s");
 
         System.out.print("Walking: " + walkingTime);
-        System.out.println(" hours");
+        System.out.println(" hour/s");
 
     }
 }

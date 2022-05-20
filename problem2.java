@@ -6,7 +6,7 @@ public class problem2 {
     public static void main(String[] args) {
         try (Scanner scnr = new Scanner(System.in)) {
 
-            int age = 87;
+            int age = 10;
             int distance = 20;
             String transport = "camel";
             double cost = 0.0;
@@ -53,5 +53,5 @@ public class problem2 {
         
         }
     
-}
+    }
 }
