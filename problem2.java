@@ -1,3 +1,5 @@
+// third option
+
 import java.util.Scanner;
 
 public class problem2 {

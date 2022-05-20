@@ -1,6 +1,5 @@
 
-// variables and datatypes - math problem
-
+// second option
 public class problem1 {
     public static void main(String[] args) {
         int carSpeed = 60;
@@ -8,18 +7,18 @@ public class problem1 {
         int scooterSpeed = 40;
         int walkingSpeed = 20;
 
-        int carTime;
+        int carTime;   
         int camelTime;
         int scooterTime;
         int walkingTime;
 
         int distance = 20;
 
-        // TIME = SPEED/DISTANCE;
-        carTime = carSpeed/distance;
-        camelTime = camelSpeed/distance;
-        scooterTime = scooterSpeed/distance;
-        walkingTime = walkingSpeed/distance;
+        // TIME = DISTANCE/SPEED;
+        carTime = distance/carSpeed;
+        camelTime = distance/camelSpeed;
+        scooterTime = distance/scooterSpeed;
+        walkingTime = distance/walkingSpeed;
 
 
         System.out.println("Sporky travelled for: " + distance + "km");
