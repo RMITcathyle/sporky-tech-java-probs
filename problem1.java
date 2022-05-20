@@ -2,17 +2,17 @@
 // second option
 public class problem1 {
     public static void main(String[] args) {
-        int carSpeed = 60;
-        int camelSpeed = 80;
-        int scooterSpeed = 40;
-        int walkingSpeed = 20;
+        int carSpeed = 30;
+        int camelSpeed = 60;
+        int scooterSpeed = 20;
+        int walkingSpeed = 5;
 
         int carTime;   
         int camelTime;
         int scooterTime;
         int walkingTime;
 
-        int distance = 20;
+        int distance = 60;
 
         // TIME = DISTANCE/SPEED;
         carTime = distance/carSpeed;
