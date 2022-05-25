@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SkyBlueScarf {
+public class HermesCaramel {
     public static void main(String[] args) {
         Scanner inputCost = null;
         double[] cost = new double[2];
@@ -8,7 +8,7 @@ public class SkyBlueScarf {
         double totalCost = 0;
         int i;
 
-        travelCost = "80.5 40.50";
+        travelCost = "80.5 130.00";
 
         inputCost = new Scanner(travelCost);
 
